@@ -1,0 +1,22 @@
+{
+	"name": "commit-lint-demo",
+	"version": "1.0.0",
+	"description": "A demo project for linting commit messages using husky",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm test"
+	},
+	"keywords": [
+		"commit-lint",
+		"commit-lint-demo",
+		"husky",
+		"husky-demo"
+	],
+	"author": "unknown",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^12.0.1",
+		"@commitlint/config-conventional": "^12.0.1",
+		"husky": "^5.1.3"
+	}
+}
